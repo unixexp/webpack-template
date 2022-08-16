@@ -10,13 +10,15 @@ body {
     font-weight: $fontWeight;
 }
 
-.header--inner {
-    margin: 20px 20px;
-    text-align: center;
-}
+.header {
+    &__inner {
+        margin: 20px 20px;
+        text-align: center;
+    }
 
-.header--title {
-    font-size: 48px;
+    &__title {
+        font-size: 48px;
+    }
 }
 
 .link {
@@ -30,11 +32,9 @@ body {
 
 .main {
     text-align: center;
+
+    &__test-picture {
+        display: block;
+    }
 }
 
-.main--test-picture {
-    display: block;
-}
-
-.main--link {
-}
